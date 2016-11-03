@@ -1,0 +1,67 @@
+.score{
+    margin:0 auto;
+    padding:30px;
+    width:400px;
+    height:80px;
+    font-weight: 400;
+    line-height: 50px;
+    font-size: 40px;
+}
+.score input{
+    border: none;
+    width:250px;
+    height:80px;
+}
+button{
+    margin:10px;
+    width:300px;
+    height:50px;
+    font-size: 30px;
+    background-color: greenyellow;
+}
+.table{
+    margin:0 auto;
+    padding:0;
+    width:480px;
+    height:480px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    position: relative;
+
+}
+.succuss{
+    display: none;
+    margin:0 auto;
+    padding:0;
+    width:480px;
+    height:480px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+.fail{
+    display: none;
+    margin:0 auto;
+    padding:50px;
+    width:350px;
+    height:350px;
+    background-color:greenyellow;
+    border-radius: 10px;
+}
+.table table{
+    margin:0 auto;
+    padding:0;
+    width:480px;
+    height:480px;
+    border-spacing: 0;
+}
+.table td{
+    border:10px solid #9f9f9f;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+    width:80px;
+    height: 80px;
+    background-color: aliceblue;
+    /*position: absolute;*/
+}
