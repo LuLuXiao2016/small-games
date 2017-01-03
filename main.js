@@ -244,6 +244,16 @@ function noRightblock(i,j,k,board){
     }
     return true
 }
+function getSuccess(){
+    if (score===2048){
+        $('.succuss').css('display','block')
+    }
+}
+function getFail(){
+    if (noUpblock&&noDownblock&&noLeftblock&&noRightblock){
+        $(".fail").css("display","block")
+    }
+}
 
 
 
